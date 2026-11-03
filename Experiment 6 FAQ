@@ -1,0 +1,19 @@
+1. What is a Queue?
+
+A queue is a linear data structure that follows the FIFO (First In, First Out) principle. Data is inserted at one end, called the rear, and removed from the other end, called the front. The element added first is the first one to be removed, just like people standing in a line at a ticket counter. The two basic operations are enqueue (insertion at the rear) and dequeue (deletion from the front).
+
+
+2. How is a Queue represented?
+
+A queue can be represented in two ways:
+
+Using an array: A fixed-size array is used, with two variables, front and rear, tracking where deletion and insertion happen. It is simple to implement, but the size is fixed in advance.
+Using a linked list: Each element is a node holding data and a pointer to the next node. The queue grows and shrinks dynamically, so there is no fixed size limit and memory is used efficiently.
+
+
+3. Enlist the types of queues.
+
+Linear queue: A simple queue where insertion happens at the rear and deletion at the front, following FIFO strictly.
+Circular queue: A queue in which the last position is connected back to the first, forming a circle.
+Priority queue: A queue in which each element has a priority, and elements are processed according to that priority.
+Double-ended queue (Deque): A queue where insertion and deletion can happen at both ends.
